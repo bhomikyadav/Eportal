@@ -1,0 +1,9 @@
+.timetable{
+    border: 1px solid #D7D7D7; 
+    box-sizing: border-box; 
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999; 
+    border-radius: 10px 10px 0px 0px; 
+    padding: 2px;
+}

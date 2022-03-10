@@ -1,0 +1,20 @@
+.acdClndr{
+    width: 65%;
+    height: 100%; 
+    border: 1px solid #E7E7E7; 
+    box-sizing: border-box; 
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    padding: 2px;
+    background-color: #FFFFFF;
+}
+@media screen and (max-width:1080px) {
+    .acdClndr{
+        
+        width: 100%;
+        display: block;
+        margin-top: 400px;
+    }
+}

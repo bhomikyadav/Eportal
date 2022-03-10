@@ -1,0 +1,15 @@
+.div1{
+    height: 71%;
+    display:flex;
+}
+.div2{
+    height: 76%;
+    display:flex; 
+    padding-top:20px; 
+    padding-bottom: 14px; 
+}
+@media (max-width:1080px) {
+    .div1,.div2{
+        flex-direction: column;
+    }
+}

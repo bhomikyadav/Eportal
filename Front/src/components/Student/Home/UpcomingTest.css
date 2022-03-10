@@ -1,0 +1,23 @@
+.upcoming{
+    width: 35%;
+    overflow-y:scroll; 
+    height: 100%; 
+    border: 1px solid #E7E7E7; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999; 
+    display: inline-flex; 
+    bottom: 14px; 
+    right: 60px; 
+    padding: 2px; 
+    margin-left: 12px;
+    background-color: #FFFFFF 
+}
+@media screen and (max-width:1080px) {
+    .upcoming{
+        width: 100%;
+        margin: 20px 0;
+    }
+}

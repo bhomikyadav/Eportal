@@ -1,0 +1,29 @@
+.attendance{
+    width: 380px; 
+    height: 100%; 
+    border: 1px solid #E7E7E7; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    background-color: #FFFFFF;
+    position: static;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
+.weekly:focus{
+    background-color: #E0DDDD; 
+    border-radius: 5px; 
+    box-shadow: 0px 1px 5px rgba(33, 33, 33, 0.48); 
+    padding: 2px; 
+}
+.weekly{
+    border: none;
+    font-size: 16px;
+    padding: 2px;
+    background-color: transparent;
+}
+@media (max-width:1080px) {
+    .attendance{
+        width: 100%;
+    }
+}

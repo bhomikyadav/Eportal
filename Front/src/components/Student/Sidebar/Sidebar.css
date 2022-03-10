@@ -1,0 +1,29 @@
+.sidebarbtn{
+    display: none;
+    top: 20px;
+    padding: 5px 7px;
+    color: #000;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 15px 10px;
+    z-index: 3;
+    border: 2px solid #035473;
+}
+
+@media (max-width:720px) {
+    .sidebarbtn{
+        display: block;
+        z-index: 3;
+    }
+    .sidebar{
+        z-index: 4;
+    }
+    .sidebardiv{
+        overflow-y: scroll;    
+    }
+    .sidebaritem:hover{
+      border: none;
+      cursor: pointer;
+      line-height: 52px;
+    }
+}
